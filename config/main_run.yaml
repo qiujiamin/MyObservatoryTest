@@ -1,0 +1,24 @@
+# 运行具体的案例 ：例如
+#testcase :
+#  - testcases/app/MY/xxx_test.py 运行具体案例
+#  - testcases/app/Fund 运行Fund下所有案例
+testcase:
+#  - 公共
+  - testcases/wed_test.py
+
+ignore :
+  - testcases/
+
+# 只运行包含标签的案例，例如 @pytest.mark.website,@pytest.mark.website1
+#mark :
+#  - website
+mark :
+#  - jenkinsOrder
+
+
+# 只运行上次结果为失败案例 True/False
+rerun_fail : False
+
+
+# 是否在本地生成allure报告 True/False
+allure : True

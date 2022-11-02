@@ -1,0 +1,8 @@
+# 数据库配置
+# app配置
+app :
+  # 访问服务器地址
+  base_url : https://pda.weather.gov.hk
+
+
+

@@ -1,0 +1,10 @@
+global_app_headers:
+  Host: "${get_app_host()}"
+  Accept-Language: "en-us"
+  X-Requested-With: "XMLHttpRequest"
+  Accept-Encoding: "gzip, deflate, br"
+  Content-Type: "application/x-www-form-urlencoded"
+  User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148"
+  Connection: "keep-alive"
+
+
